@@ -1,3 +1,3 @@
 # React in Shadow DOM demo
 
-WIP
+WIP.
