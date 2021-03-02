@@ -24,7 +24,7 @@ export class AppHome {
     const microFe = createElement(Demo1) as any;
     render(microFe, root);
 
-    setInterval(() => { this.num++; }, 1000);
+    if (this.num === 0) { setInterval(() => { this.num++; }, 1000); }
   }
 
   componentDidUpdate() {
@@ -39,7 +39,7 @@ export class AppHome {
     return (
       <div class="app-home">
         <p>Below this line is a React App (MicroFE) running in Shadow DOM:</p>
-        <hr />
+        <br />
         <div id="root"></div>
       </div>
     );

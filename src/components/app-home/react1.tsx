@@ -12,7 +12,7 @@ export class Demo1 extends Component<{ num: number }> {
     return (
       <div>
         <p>REACT hello world.</p>
-        <p>Receiving counter from Shell: {this.props.num}</p>
+        <p>Receiving data passed down from Shell: {this.props.num}</p>
       </div>
     );
   }
